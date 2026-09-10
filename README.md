@@ -46,18 +46,15 @@ Result displayed – The requested information is presented through the web inte
 
 Python – Used for running the project code and AI-related processing
 
-Vercel - Used for Deploy
+lovable ai - for creating web and publishing it.
 
 Microsoft PowerPoint – Used to prepare the project presentation
 
 
 🌐 Live Demo
 
-[Add your deployed website link here]
+https://campus-plan-bot.lovable.app
 
-🎥 Project Demo
-
-[Add your demo video link here]
 
 📂 Project Structure
 
