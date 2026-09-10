@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CampusFlow AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🎯 CampusFlow <span>AI</span></div>
+
+    <div class="status">
+        <span class="dot"></span>
+        AI Mission Engine Online
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="badge">
+            🤖 Autonomous Campus Mission Planner
+        </div>
+
+        <h1>
+            Plan Your Campus Mission<br>
+            <span>Intelligently.</span>
+        </h1>
+
+        <p>
+            Tell CampusFlow AI what you need to accomplish.
+            It plans, guides, monitors and dynamically replans your mission.
+        </p>
+
+    </section>
+
+
+    <!-- MISSION INPUT -->
+    <section class="planner">
+
+        <div class="planner-header">
+
+            <h2>🎯 Create Your Mission</h2>
+
+            <p>
+                Describe everything you need to accomplish on campus.
+            </p>
+
+        </div>
+
+
+        <textarea
+            id="prompt"
+            placeholder="Example: Before my 2 PM lab, I need to submit my assignment, collect the equipment and meet my faculty. Plan everything for me."
+        ></textarea>
+
+
+        <div class="options">
+
+            <label class="checkbox">
+                <input type="checkbox" id="accessibility">
+                ♿ Accessibility Mode
+            </label>
+
+
+            <select id="disruption">
+
+                <option value="none">
+                    No Disruption
+                </option>
+
+                <option value="faculty_away">
+                    Faculty Unavailable
+                </option>
+
+                <option value="admin_queue_spike">
+                    Admin Queue Spike
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button id="planButton">
+            🚀 Create Intelligent Mission
+        </button>
+
+    </section>
+
+
+    <!-- LOADING -->
+    <section id="loading" class="loading hidden">
+
+        🧠 CampusFlow AI is analyzing your mission...
+
+    </section>
+
+
+    <!-- RESULTS -->
+    <section id="results" class="results hidden">
+
+        <div class="result-title">
+
+            <h2>🧠 Mission Plan</h2>
+
+            <span class="success">
+                ✓ Mission Generated
+            </span>
+
+        </div>
+
+
+        <!-- WORKFLOW -->
+        <div class="workflow">
+
+            <div>
+                1<br>
+                <strong>UNDERSTAND</strong>
+            </div>
+
+            <div>→</div>
+
+            <div>
+                2<br>
+                <strong>PLAN</strong>
+            </div>
+
+            <div>→</div>
+
+            <div>
+                3<br>
+                <strong>ACT</strong>
+            </div>
+
+            <div>→</div>
+
+            <div>
+                4<br>
+                <strong>MONITOR</strong>
+            </div>
+
+            <div>→</div>
+
+            <div>
+                5<br>
+                <strong>REPLAN</strong>
+            </div>
+
+        </div>
+
+
+        <!-- TASKS -->
+        <div id="taskList" class="task-list"></div>
+
+
+        <!-- PYTHON OUTPUT -->
+        <div class="console-box">
+
+            <h3>
+                📡 AI Mission Engine Output
+            </h3>
+
+            <pre id="consoleOutput"></pre>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <div>
+
+            <div class="icon">📋</div>
+
+            <h3>
+                Multi-Task Planning
+            </h3>
+
+            <p>
+                Combines multiple student goals into one mission.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <div class="icon">⏱️</div>
+
+            <h3>
+                Time Estimation
+            </h3>
+
+            <p>
+                Considers task duration and queue time.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <div class="icon">🔔</div>
+
+            <h3>
+                Smart Guidance
+            </h3>
+
+            <p>
+                Provides the next action and instructions.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <div class="icon">🔄</div>
+
+            <h3>
+                Dynamic Replanning
+            </h3>
+
+            <p>
+                Adapts when campus conditions change.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    CampusFlow AI • Innovation Hacks Global AI Hackathon 2026
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
