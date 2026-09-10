@@ -46,7 +46,7 @@ Result displayed – The requested information is presented through the web inte
 
 Python – Used for running the project code and AI-related processing
 
-Lovable AI – Used to create and develop the web application
+Vercel - Used for Deploy
 
 Microsoft PowerPoint – Used to prepare the project presentation
 
